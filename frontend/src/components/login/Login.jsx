@@ -74,7 +74,7 @@ const Login = ({ setLoginUser }) => {
                 </form>
             </div>
             <div class="flex items-center justify-center mt-6">
-                <a href="/Register" target="_blank" class="inline-flex items-center text-xs font-thin text-center text-gray-500 hover:text-gray-700 dark:text-gray-100 dark:hover:text-white"  onClick={navigate("/Register")}>
+            <a href="/Register" target="_blank" className="inline-flex items-center text-xs font-thin text-center text-gray-500 hover:text-gray-700 dark:text-gray-100 dark:hover:text-white" onClick={() => navigate("/Register")}>
                     <span class="ml-2">
                         You don&#x27;t have an account?
                     </span>
