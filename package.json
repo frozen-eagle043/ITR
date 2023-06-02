@@ -1,6 +1,27 @@
 {
+  "name": "itr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "axios": "^1.4.0",
-    "react-router-dom": "^6.11.2"
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.1.0",
+    "express": "^4.18.2",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.2",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
